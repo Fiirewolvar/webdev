@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Title: MyString
+  Album: one
+  Notes: MyString
+  Fave: false
+
+two:
+  Title: MyString
+  Album: two
+  Notes: MyString
+  Fave: false

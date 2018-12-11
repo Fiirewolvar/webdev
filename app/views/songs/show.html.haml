@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @song.Title
+%p
+  %b Album:
+  = @song.Album
+%p
+  %b Notes:
+  = @song.Notes
+%p
+  %b Fave:
+  = @song.Fave
+
+%p= link_to t('.add_song'), new_song_path(album_id: @album)
+
+= link_to 'Edit', edit_song_path(@song)
+\|
+= link_to 'Back', songs_path
+

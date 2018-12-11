@@ -20,22 +20,29 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  app_title: idk
-  app_description: bluh
+  app_title: Music Hoard
+  app_description: A place to store the details of your music collection!
 
   home:
     home:
-      title: music stuff
+      title: Music Hoard
 
     contact:
-      title: contact us
-      contact_us: What The Fuck
-      name: "name"
-      enter_name: enter name
-      email: "email"
-      enter_email: enter email
-      telephone: "telephone"
-      enter_telephone: enter telephone
-      message: "message"
-      enter_message: what is your message
-      submit: contact us
+      title: Contact Us
+      contact_us: Fill in this form to contact us.
+      name: "Name:"
+      enter_name: Enter name
+      email: "Email:"
+      enter_email: Enter email
+      telephone: "Telephone:"
+      enter_telephone: Enter telephone number
+      message: "Message:"
+      enter_message: What is your message?
+      submit: Send
+
+    request_contact:
+      no_email: Please supply an email address.
+      email_sent: Thank you.
+  songs:
+    show:
+      add_song: "Add song"

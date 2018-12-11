@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name: MyString
+  Release: 2018-12-10
+  Artist: MyString
+  Notes: MyString
+  Fave: false
+
+two:
+  Name: MyString
+  Release: 2018-12-10
+  Artist: MyString
+  Notes: MyString
+  Fave: false

@@ -51,3 +51,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'haml-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'coffee-script-source', '1.8.0'
+gem 'modernizr-rails'
